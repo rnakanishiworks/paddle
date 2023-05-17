@@ -35,8 +35,7 @@
 
 .topImages {
   width: 100%;
-  height: 800px;
-  margin-bottom: 50px;
+  margin-bottom: 2%;
 }
 
 .topImage1 {
@@ -51,7 +50,7 @@
   height: 100px;
   background-color: #ffc68e;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 1%;
 }
 
 .topNewsLeft {
@@ -114,16 +113,51 @@
   width: 100%;
   height: 200px;
   position: relative;
-  background-color: #000;
 }
 
 .subHeadingText {
   width: 30%;
   height: 60%;
-  background-color: white;
   word-wrap: break-word;
   font-size: 1.5vw;
-  margin-bottom: 20px;
+}
+
+/* subImages */
+.subImagesContena {
+  padding-top: 2%;
+  background-color: #000;
+}
+
+.subImages {
+  width: 100%;
+  display: flex;
+}
+
+.Upper,
+.Lower {
+  display: flex;
+  justify-content: center;
+}
+
+.Upper {
+  margin-bottom: 2%;
+  z-index: 3;
+}
+
+.subImage.siu2 {
+  width: 62%;
+}
+
+.siu1,
+.sil1,
+.sil2 {
+  margin-right: 2%;
+}
+.subImage {
+  width: 30%;
+  height: 23vw;
+  object-fit: cover;
+  display: block;
 }
 
 /* ＝＝汎用プロパティ＝＝ */
