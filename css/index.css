@@ -111,8 +111,11 @@
 /* subHeading */
 .subHeading {
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
 }
 
 .subHeadingText {
@@ -124,7 +127,7 @@
 
 /* subImages */
 .subImagesContena {
-  padding-top: 2%;
+  padding: 2% 0 2% 0;
   background-color: #000;
 }
 
@@ -159,6 +162,69 @@
   object-fit: cover;
   display: block;
 }
+
+/* facilityContena */
+.facilityContena {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.facilityLink {
+  width: 70%;
+  background-color: #fff575;
+  position: relative;
+}
+
+.facilityImage {
+  width: 70%;
+}
+
+.facilityLinkTextArea {
+  position: absolute;
+  top: 9%;
+  right: 5%;
+  text-align: center;
+}
+
+.facilityLinkTitle {
+  font-size: 2.3vw;
+}
+
+.facilityLinkText {
+  font-size: 1.5vw;
+}
+
+.facilityLinkButtonArea {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* height: 40%; */
+  margin: 5% 0 10% 0;
+}
+
+.facilityLinkButton {
+  width: 15%;
+  height: 5vh;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 0 1% 0;
+}
+
+.paddleInfoTitle {
+  width: 100%;
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+  text-align: center;
+}
+
+.spendPaddle
 
 /* ＝＝汎用プロパティ＝＝ */
 /* positionCenter 中央配置 */
