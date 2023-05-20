@@ -222,9 +222,25 @@
   font-size: 2vw;
   letter-spacing: 0.2vw;
   text-align: center;
+  margin-bottom: 3%;
 }
 
-.spendPaddle
+.paddleInfoLink {
+  display: flex;
+  justify-content: center;
+}
+
+.paddleInfoLinkBody {
+  width: 80%;
+  height: 300px;
+  background-color: #fff;
+}
+
+.pilimage {
+  width: 30%;
+  height: 15vw;
+  object-fit: cover;
+}
 
 /* ＝＝汎用プロパティ＝＝ */
 /* positionCenter 中央配置 */
