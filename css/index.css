@@ -199,9 +199,16 @@
 }
 
 .facilityLinkButtonArea {
+  width: 100%;
   display: flex;
   justify-content: center;
   margin: 5% 0 10% 0;
+}
+
+.facilityLinkButton {
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 /* paddleInfo */
