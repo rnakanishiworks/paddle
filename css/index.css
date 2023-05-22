@@ -1,22 +1,24 @@
+/* ================================= */
 /* header */
+/* ================================= */
 .header {
   width: 100%;
-  height: 100px;
+  height: 6vw;
   position: relative;
 }
 
 .headerIcon {
   width: 30%;
   height: 100%;
-  background-color: #ff8c00;
+  background-color: #000;
   position: absolute;
 }
-
+/* ================================= */
 /* topMenu */
-
+/* ================================= */
 .topMenu {
   width: 100%;
-  height: 50px;
+  height: 2.5vw;
   background-color: #a0a0a0;
   position: relative;
 }
@@ -30,7 +32,7 @@
 }
 
 .topMenus li {
-  padding: 0 2% 0 2%;
+  padding: 0 2% 0.5% 2%;
 }
 
 .topImages {
@@ -42,9 +44,9 @@
   width: 100%;
   object-fit: cover;
 }
-
+/* ================================= */
 /* topNews */
-
+/* ================================= */
 .topNews {
   width: 100%;
   height: 100px;
@@ -107,8 +109,9 @@
   height: 1px;
   background-color: #000;
 }
-
+/* ================================= */
 /* subHeading */
+/* ================================= */
 .subHeading {
   width: 100%;
   /* height: 200px; */
@@ -124,8 +127,9 @@
   word-wrap: break-word;
   font-size: 1.5vw;
 }
-
+/* ================================= */
 /* subImages */
+/* ================================= */
 .subImagesContena {
   padding: 2% 0 7% 0;
   background-color: #000;
@@ -162,14 +166,17 @@
   object-fit: cover;
   display: block;
 }
-
+/* ================================= */
 /* facilityContena */
+/* ================================= */
 .facilityContena {
   width: 100%;
   padding-bottom: 3%;
   background-color: #000;
   display: flex;
   justify-content: center;
+  /* 一時的に非表示 */
+  display: none;
 }
 
 .facilityLink {
@@ -223,8 +230,9 @@
   width: 60%;
 }
 
+/* ================================= */
 /* paddleInfo */
-
+/* ================================= */
 .paddleInfoTitle {
   margin-bottom: 3%;
   font-weight: bold;
@@ -284,8 +292,11 @@
   display: block;
 }
 
+/* ================================= */
 /* PickUp */
-.pickUpTitle {
+/* ================================= */
+.pickUpContena {
+  margin-top: 5%;
 }
 
 .pickUpContents {
@@ -309,7 +320,9 @@
   font-size: 1.5vw;
 }
 
+/* ================================= */
 /* access */
+/* ================================= */
 .accessContena {
   width: 100%;
   background-color: yellow;
@@ -317,6 +330,7 @@
   display: flex;
   justify-content: center;
   flex-flow: column;
+  margin: 5% 0 10% 0;
 }
 
 .accessImage {
@@ -354,6 +368,80 @@
 
 .accessLinkButton div img {
   width: 60%;
+}
+
+/* ================================= */
+/* footer */
+/* ================================= */
+
+.footer {
+  height: 8vw;
+  background-color: #a0a0a0;
+  position: relative;
+}
+
+.copyLight {
+  width: 25%;
+  height: 100%;
+  /* background-color: #000; */
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footerLogo {
+  width: 40%;
+  height: 40%;
+  background-color: #ff8c00;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copyLightText {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  font-size: 1.1vw;
+}
+.footerIcons {
+  display: flex;
+  width: 11%;
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footerIcon {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+}
+
+.footerIcon div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.footerIcon img {
+  object-fit: contain;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.footerIcon p {
+  text-align: center;
+  font-size: 1vw;
 }
 
 /* ＝＝汎用プロパティ＝＝ */
