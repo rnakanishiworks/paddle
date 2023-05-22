@@ -200,6 +200,7 @@
 
 .facilityLinkButtonArea {
   width: 100%;
+
   display: flex;
   justify-content: center;
   margin: 5% 0 10% 0;
@@ -207,8 +208,19 @@
 
 .facilityLinkButton {
   width: 80%;
+  padding: 0 4% 0 4%;
   display: flex;
   justify-content: center;
+}
+
+.facilityLinkButtonImg {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+}
+
+.facilityLinkButtonImg img {
+  width: 60%;
 }
 
 /* paddleInfo */
@@ -225,7 +237,6 @@
 
 .paddleInfoLinkBody {
   width: 80%;
-
   padding: 4%;
   background-color: #99ff00;
   display: flex;
@@ -243,6 +254,26 @@
 
 .paddleInfoLinkCenter {
   width: 34%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.paddleInfoLinkCenterRack p {
+  width: 70%;
+  text-align: center;
+  font-size: 1.2vw;
+  word-break: break-all;
+}
+
+.paddleInfoLinkCenterRack {
+  display: flex;
+  justify-content: center;
+  /* flex-flow: column; */
+}
+
+.paddleInfoLinkCenterRack img {
+  width: 60%;
 }
 
 .pilimage {
@@ -283,6 +314,9 @@
   width: 100%;
   background-color: yellow;
   padding: 5% 0 5% 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
 }
 
 .accessImage {
@@ -295,10 +329,31 @@
   width: 60%;
 }
 
-.accessLinkButton {
+.accessLinkButtonArea {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.accessLinkButtonBody {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.accessLinkButton {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.accessLinkButton div {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+}
+
+.accessLinkButton div img {
+  width: 60%;
 }
 
 /* ＝＝汎用プロパティ＝＝ */
