@@ -25,7 +25,7 @@
 .topMenu {
   width: 100%;
   height: 2.5vw;
-  background-color: #2e2e2e;
+  background-color: #00263f;
   /* box-shadow: inset 0px -10px 20px -5px #6beadb; */
   /* background: linear-gradient(to bottom, #a0a0a0 70%, #6beadb); */
   position: relative;
@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   color: #fff;
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 
 .topMenus li {
@@ -46,16 +46,20 @@
   align-items: center;
   padding: 0 2% 0 2%;
 }
+
+.topMenus li:hover {
+  background-color: #fff;
+}
 /* ================================= */
 /* topImages */
 /* ================================= */
 .topImages {
   width: 100%;
   height: 85vh;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
-.topImage1 {
+.topImage {
   width: 100%;
   object-fit: cover;
 }
@@ -66,9 +70,9 @@
 .topNews {
   width: 100%;
   height: 5vw;
-  background-color: #6beadb;
+  background-color: rgba(247, 119, 0, 0.5);
   display: flex;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 
 .topNewsLeft {
@@ -90,18 +94,15 @@
 .topNewsContent {
   width: 85%;
   padding-left: 2%;
-  /* overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis; */
   display: flex;
 }
 
 .newsIcon {
   width: 25%;
   height: 45%;
-  background-color: #ff8c00;
+  background-color: rgba(247, 119, 0, 0.9);
   border-radius: 20px;
-  color: white;
+  color: #fff;
   position: absolute;
   right: 0;
 }
@@ -113,6 +114,7 @@
 .newsText {
   font-size: 0.8vw;
   line-height: 100%;
+  /* color: #fff; */
 }
 
 .newsText {
@@ -139,20 +141,20 @@
   position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .subHeadingText {
   width: 30%;
   height: 60%;
   word-wrap: break-word;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 /* ================================= */
 /* subImages */
 /* ================================= */
 .subImagesContena {
-  padding: 2% 0 7% 0;
+  padding: 2% 0 2% 0;
   background-color: #000;
 }
 
@@ -320,6 +322,10 @@
   margin-top: 5%;
 }
 
+.pickupTitle {
+  margin-bottom: 2%;
+}
+
 .pickUpContents {
   width: 100%;
   padding: 0 5% 0 5%;
@@ -336,9 +342,9 @@
   object-fit: cover;
 }
 
-.pickUp p {
+.explainPickup {
   word-wrap: break-word;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 
 /* ================================= */
@@ -347,11 +353,11 @@
 .accessContena {
   width: 100%;
   background-color: yellow;
-  padding: 5% 0 5% 0;
+  padding: 2% 0 4% 0;
   display: flex;
   justify-content: center;
   flex-flow: column;
-  margin: 5% 0 10% 0;
+  margin: 8% 0 5% 0;
   position: relative;
 }
 
@@ -361,10 +367,12 @@
   position: absolute;
   z-index: 1;
   opacity: 0.3;
+  top: 0;
 }
 
 .accessTitle {
   z-index: 2;
+  padding-bottom: 2%;
 }
 
 .accessImage {
@@ -383,6 +391,7 @@
   display: flex;
   justify-content: center;
   z-index: 2;
+  padding-top: 2%;
 }
 .accessLinkButtonBody {
   width: 70%;
@@ -412,7 +421,7 @@
 
 .footer {
   height: 8vw;
-  background-color: #a0a0a0;
+  background-color: rgba(0, 38, 63, 0.7);
   position: relative;
 }
 
