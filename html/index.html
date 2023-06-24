@@ -9,12 +9,11 @@
     <!-- The New Css Reset : https://github.com/elad2412/the-new-css-reset -->
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="../css/slick.css" />
-    <link rel="stylesheet" href="../css/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <script src="../js/jquery-3.7.0.min.js" defer></script>
-    <script src="../js/slick.min.js" defer></script>
     <script src="../js/index.js" defer></script>
-    ェード
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <title>Paddle</title>
   </head>
   <body>
@@ -31,11 +30,13 @@
           <li>Reserve</li>
         </ul>
       </div>
-      <div id="topImages" class="topImages">
-        <img class="topImage 1" src="../image/demo_topImage.jpg" alt="" />
-        <!-- <img class="topImage 2" src="../image/demo_topImage.jpg" alt="" />
-        <img class="topImage 3" src="../image/demo_topImage.jpg" alt="" />
-        <img class="topImage 4" src="../image/demo_topImage.jpg" alt="" /> -->
+      <div class="swiper topImages">
+        <div class="swiper-wrapper">
+          <img class="swiper-slide topImage" src="../image/demo_topImage.jpg" alt="" />
+          <img class="swiper-slide topImage 2" src="../image/demo_subImage1.png" alt="" />
+          <img class="swiper-slide topImage 3" src="../image/demo_subImage2.jpg" alt="" />
+          <img class="swiper-slide topImage 4" src="../image/demo_subImage3.png" alt="" />
+        </div>
       </div>
       <div class="topNews">
         <div class="topNewsLeft">
@@ -51,9 +52,7 @@
           <div class="topNewsSeparateBar"></div>
           <div class="topNewsContent">
             <p class="newsDay">1995/05/01</p>
-            <p class="newsText">
-              あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも
-            </p>
+            <p class="newsText">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも</p>
           </div>
         </div>
       </div>
@@ -64,23 +63,35 @@
       </div>
       <div class="subImagesContena">
         <div class="subImages Upper">
-          <img class="subImage siu1" src="../image/demo_subImage1.png" alt="" />
-          <img class="subImage siu2" src="../image/demo_subImage2.jpg" alt="" />
+          <img id="subImage0" class="subImage subImage0 siu1" src="../image/demo_subImage1.png" alt="" />
+          <img id="subImage1" class="subImage subImage1 siu2" src="../image/demo_subImage2.jpg" alt="" />
         </div>
         <div class="subImages Lower">
-          <img class="subImage sil1" src="../image/demo_subImage3.png" alt="" />
-          <img class="subImage sil2" src="../image/demo_subImage4.jpg" alt="" />
-          <img class="subImage" src="../image/demo_subImage5.jpg" alt="" />
+          <img id="subImage2" class="subImage subImage2 sil1" src="../image/demo_subImage3.png" alt="" />
+          <img id="subImage3" class="subImage subImage3 sil2" src="../image/demo_subImage4.jpg" alt="" />
+          <img id="subImage4" class="subImage subImage4" src="../image/demo_subImage5.jpg" alt="" />
         </div>
+        <img class="stockSubImage" src="../image/demo_subImage1.png" alt="" hidden />
+        <img class="stockSubImage" src="../image/demo_subImage2.jpg" alt="" hidden />
+        <img class="stockSubImage" src="../image/demo_subImage3.png" alt="" hidden />
+        <img class="stockSubImage" src="../image/demo_subImage4.jpg" alt="" hidden />
+        <img class="stockSubImage" src="../image/demo_subImage5.jpg" alt="" hidden />
+        <img class="stockSubImage" src="../image/DummyImage1920_1080.png" alt="" hidden />
+        <img class="stockSubImage" src="../image/RP25983_1029.png" alt="" hidden />
+        <img class="stockSubImage" src="../image/a8b3d03e-2216-498d-9b13-d8b59f0144dd.jpg" alt="" hidden />
+        <img class="stockSubImage" src="../image/d44913-3-847506-9.jpg" alt="" hidden />
+        <img class="stockSubImage" src="../image/ffa9d6f137d8469ef4a5b5683af82694.jpg" alt="" hidden />
+        <img class="stockSubImage" src="../image/demo_pickup1.png" alt="" hidden />
+        <img class="stockSubImage" src="../image/demo_pickup2.png" alt="" hidden />
+        <img class="stockSubImage" src="../image/demo_pickup3.jpg" alt="" hidden />
       </div>
+
       <div class="facilityContena">
         <div class="facilityLink">
           <img class="facilityImage" src="../image/DummyImage1920_1080_cutVer.png" alt="" />
           <div class="facilityLinkTextArea">
             <p class="facilityLinkTitle">設備一覧</p>
-            <p class="facilityLinkText">
-              texttexttexttexttexttexttexttext<br />texttexttexttexttexttexttexttext
-            </p>
+            <p class="facilityLinkText">texttexttexttexttexttexttexttext<br />texttexttexttexttexttexttexttext</p>
           </div>
           <div class="facilityLinkButtonArea">
             <div class="detailLinkButton facilityLinkButton">

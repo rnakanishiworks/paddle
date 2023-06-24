@@ -26,8 +26,6 @@
   width: 100%;
   height: 2.5vw;
   background-color: #00263f;
-  /* box-shadow: inset 0px -10px 20px -5px #6beadb; */
-  /* background: linear-gradient(to bottom, #a0a0a0 70%, #6beadb); */
   position: relative;
 }
 
@@ -55,13 +53,23 @@
 /* ================================= */
 .topImages {
   width: 100%;
-  height: 85vh;
+  position: relative;
+  height: 44vw;
   margin-bottom: 3%;
 }
 
 .topImage {
   width: 100%;
+  /* height: 85vw; */
   object-fit: cover;
+  user-drag: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.active {
+  width: 100%;
 }
 /* ================================= */
 /* topNews */
@@ -114,7 +122,6 @@
 .newsText {
   font-size: 0.8vw;
   line-height: 100%;
-  /* color: #fff; */
 }
 
 .newsText {
@@ -137,7 +144,6 @@
 /* ================================= */
 .subHeading {
   width: 100%;
-  /* height: 200px; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -187,7 +193,22 @@
   width: 30%;
   height: 23vw;
   object-fit: cover;
-  display: block;
+}
+
+.subImage0 {
+  animation: slide 5s infinite;
+}
+.subImage1 {
+  animation: slide 7s infinite;
+}
+.subImage2 {
+  animation: slide 10s infinite;
+}
+.subImage3 {
+  animation: slide 4s infinite;
+}
+.subImage4 {
+  animation: slide 9s infinite;
 }
 /* ================================= */
 /* facilityContena */
@@ -300,7 +321,6 @@
 .paddleInfoLinkCenterRack {
   display: flex;
   justify-content: center;
-  /* flex-flow: column; */
 }
 
 .paddleInfoLinkCenterRack img {
@@ -308,9 +328,7 @@
 }
 
 .pilimage {
-  /* width: 30%; */
   height: 15vw;
-  /* height:33%; */
   object-fit: cover;
   display: block;
 }
@@ -428,7 +446,6 @@
 .copyLight {
   width: 25%;
   height: 100%;
-  /* background-color: #000; */
   color: #fff;
   position: absolute;
   top: 50%;
@@ -439,7 +456,6 @@
 .footerLogo {
   width: 40%;
   height: 40%;
-  /* background-color: #ff8c00; */
   object-fit: contain;
   position: absolute;
   top: 40%;
@@ -506,5 +522,20 @@
   letter-spacing: 0.2vw;
 }
 
-.detailLinkButton {
+@keyframes slide {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }

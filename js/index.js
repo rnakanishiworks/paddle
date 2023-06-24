@@ -1,10 +1,52 @@
-$(function () {
-  topImageSlide();
-});
+{
+  const images = $('.stockSubImage');
+  let nums = [];
 
-function topImageSlide() {
-  //   $('#topImages').slick({
-  //     autoplay: true,
-  //     // accessibility: false,
-  //   });
+  $(function () {
+    // topImageスライド
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: { delay: 6000, disableOnInteraction: false },
+    });
+
+    // サブ画像1
+    setInterval(() => {
+      setSubImage(0);
+    }, 5000);
+    // サブ画像2
+    setInterval(() => {
+      setSubImage(1);
+    }, 7000);
+    // サブ画像3
+    setInterval(() => {
+      setSubImage(2);
+    }, 10000);
+    // サブ画像4
+    setInterval(() => {
+      setSubImage(3);
+    }, 4000);
+    // サブ画像5
+    setInterval(() => {
+      setSubImage(4);
+    }, 9000);
+  });
+
+  /**
+   * 画像のスライドショー
+   * @param {number} elmNo 画像ID番号
+   */
+
+  function setSubImage(elmNo) {
+    let setNum = null;
+    while (true) {
+      setNum = Math.floor(Math.random() * images.length);
+      if (nums.includes(setNum)) {
+        continue;
+      }
+      break;
+    }
+    nums[elmNo] = setNum;
+    $('#subImage' + elmNo).attr('src', $(images[setNum]).attr('src'));
+    console.log(nums);
+  }
 }
