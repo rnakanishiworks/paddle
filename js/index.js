@@ -12,11 +12,11 @@
     // サブ画像1
     setInterval(() => {
       setSubImage(0);
-    }, 5000);
+    }, 7000);
     // サブ画像2
     setInterval(() => {
       setSubImage(1);
-    }, 7000);
+    }, 17000);
     // サブ画像3
     setInterval(() => {
       setSubImage(2);
@@ -24,11 +24,11 @@
     // サブ画像4
     setInterval(() => {
       setSubImage(3);
-    }, 4000);
+    }, 21000);
     // サブ画像5
     setInterval(() => {
       setSubImage(4);
-    }, 9000);
+    }, 8000);
   });
 
   /**
