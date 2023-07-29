@@ -60,8 +60,7 @@
 
 .topImage {
   width: 100%;
-  /* height: 85vw; */
-  object-fit: cover;
+  /* object-fit: none; */
   user-drag: none;
   -webkit-user-drag: none;
   -moz-user-select: none;
@@ -341,7 +340,13 @@
 }
 
 .pickupTitle {
+  display: flex;
+  justify-content: center;
   margin-bottom: 2%;
+}
+
+.pickupTitlePng {
+  width: 12vw;
 }
 
 .pickUpContents {
@@ -389,19 +394,29 @@
 }
 
 .accessTitle {
+  display: flex;
+  justify-content: center;
   z-index: 2;
   padding-bottom: 2%;
 }
 
-.accessImage {
+.accessTitlePng {
+  width: 12vw;
+}
+
+.accessMap {
   width: 100%;
+  height: 30vw;
+  /* background-color: white; */
   display: flex;
   justify-content: center;
   z-index: 2;
 }
 
-.accessImage img {
-  width: 60%;
+.accessMapArea {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
 }
 
 .accessLinkButtonArea {
@@ -513,13 +528,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.contentsTitle {
-  width: 100%;
-  text-align: center;
-  font-size: 2vw;
-  letter-spacing: 0.2vw;
 }
 
 @keyframes slide {

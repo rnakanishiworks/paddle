@@ -4,10 +4,12 @@
 
   $(function () {
     // topImageスライド
-    const swiper = new Swiper('.swiper', {
-      loop: true,
-      autoplay: { delay: 6000, disableOnInteraction: false },
-    });
+    // const swiper = new Swiper('.swiper', {
+    //   loop: true,
+    //   autoplay: { delay: 6000, disableOnInteraction: false },
+    // });
+
+    $('#topImage').hide().fadeIn(4000);
 
     // サブ画像1
     setInterval(() => {

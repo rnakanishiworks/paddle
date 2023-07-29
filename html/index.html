@@ -9,11 +9,11 @@
     <!-- The New Css Reset : https://github.com/elad2412/the-new-css-reset -->
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
 
     <script src="../js/jquery-3.7.0.min.js" defer></script>
     <script src="../js/index.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
     <title>Paddle</title>
   </head>
   <body>
@@ -22,21 +22,21 @@
     </div>
     <div class="contents">
       <div class="topMenu">
-        <ul class="topMenus">
+        <!-- <ul class="topMenus">
           <li>Home</li>
           <li>News</li>
           <li>Facility</li>
           <li>Access</li>
           <li>Reserve</li>
-        </ul>
+        </ul> -->
       </div>
       <div class="swiper topImages">
-        <div class="swiper-wrapper">
-          <img class="swiper-slide topImage" src="../image/demo_topImage.jpg" alt="" />
-          <img class="swiper-slide topImage 2" src="../image/demo_subImage1.png" alt="" />
+        <!-- <div class="swiper-wrapper"> -->
+        <img id="topImage" class="swiper-slide topImage" src="../image/demo_topImage02-2.png" alt="" />
+        <!-- <img class="swiper-slide topImage 2" src="../image/demo_subImage1.png" alt="" />
           <img class="swiper-slide topImage 3" src="../image/demo_subImage2.jpg" alt="" />
-          <img class="swiper-slide topImage 4" src="../image/demo_subImage3.png" alt="" />
-        </div>
+          <img class="swiper-slide topImage 4" src="../image/demo_subImage3.png" alt="" /> -->
+        <!-- </div> -->
       </div>
       <div class="topNews">
         <div class="topNewsLeft">
@@ -44,15 +44,13 @@
         </div>
         <div class="topNewsRight">
           <div class="topNewsContent">
-            <p class="newsDay">1995/05/01</p>
-            <p class="newsText">
-              あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも
-            </p>
+            <p class="newsDay">2023/08/05</p>
+            <p class="newsText">VillaPaddleがオープンしました！</p>
           </div>
           <div class="topNewsSeparateBar"></div>
           <div class="topNewsContent">
-            <p class="newsDay">1995/05/01</p>
-            <p class="newsText">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも</p>
+            <p class="newsDay">-</p>
+            <p class="newsText">-</p>
           </div>
         </div>
       </div>
@@ -130,7 +128,9 @@
         </div>
       </div>
       <div class="pickUpContena">
-        <p class="contentsTitle pickupTitle">Pickup</p>
+        <div class="pickupTitle">
+          <img class="pickupTitlePng" src="../image/PickUp.svg" alt="" />
+        </div>
         <div class="pickUpContents">
           <div class="pickUp">
             <img src="../image/demo_pickup1.png" alt="" />
@@ -154,15 +154,31 @@
       </div>
       <div class="accessContena">
         <img class="accessBackImage" src="../image/demo_access_gray.png" alt="" />
-        <div class="contentsTitle accessTitle"><p>ACCESS</p></div>
-        <div class="accessImage"><img src="../image/demo_access1.png" alt="" /></div>
-        <div class="accessLinkButtonArea">
+        <div class="accessTitle">
+          <!-- <p>ACCESS</p> -->
+          <img class="accessTitlePng" src="../image/Access.svg" alt="" />
+        </div>
+        <div class="accessMap">
+          <div class="accessMapArea">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d276.27628683489434!2d134.7507599048225!3d34.361241870633485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f150.1!3m3!1m2!1s0x3554a3933ded290f%3A0x2a25aee77baa6cfb!2zQXdhamkgTGFyZ2UgTG9naG91c2UgaW4gR29zaGlraSDmt6Hot68g44Op44O844K4IOODreOCsOODj-OCpuOCuSDkupToibI!5e0!3m2!1sja!2sjp!4v1690592653773!5m2!1sja!2sjp"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <!-- <img src="../image/demo_access1.png" alt="" /> -->
+        </div>
+        <!-- <div class="accessLinkButtonArea">
           <div class="accessLinkButtonBody">
             <div class="accessLinkButton">
               <div><img src="../image/detailLinkButton_200.png" alt="" /></div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="footer">
