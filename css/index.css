@@ -15,7 +15,7 @@
 }
 
 .headerIcon img {
-  width: 45%;
+  /* width: 70x%; */
   object-fit: contain;
 }
 
@@ -454,7 +454,7 @@
 
 .footer {
   height: 8vw;
-  background-color: rgba(0, 38, 63, 0.7);
+  background-color: rgba(0, 38, 63, 0.8);
   position: relative;
 }
 
@@ -469,8 +469,7 @@
 }
 
 .footerLogo {
-  width: 40%;
-  height: 40%;
+  width: 60%;
   object-fit: contain;
   position: absolute;
   top: 40%;
