@@ -11,12 +11,24 @@
   width: 30%;
   height: 100%;
   background-color: #fff;
+}
+
+.headerIcon p {
+  font-family: serif;
+  font-size: 10px;
   position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .headerIcon img {
-  /* width: 70x%; */
+  width: 70%;
   object-fit: contain;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* ================================= */
@@ -24,7 +36,7 @@
 /* ================================= */
 .topMenu {
   width: 100%;
-  height: 2.5vw;
+  height: 2vw;
   background-color: #00263f;
   position: relative;
 }
