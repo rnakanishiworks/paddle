@@ -1,14 +1,18 @@
+p {
+  font-family: serif;
+}
+
 /* ================================= */
 /* header */
 /* ================================= */
 .header {
   width: 100%;
-  height: 6vw;
+  height: 4.7vw;
   position: relative;
 }
 
 .headerIcon {
-  width: 30%;
+  width: 20%;
   height: 100%;
   background-color: #fff;
 }
@@ -89,7 +93,8 @@
 .topNews {
   width: 100%;
   height: 5vw;
-  background-color: rgba(247, 119, 0, 0.5);
+  background-color: #e6e6e6;
+  /* background-color: #c0c0c0; */
   display: flex;
   margin-bottom: 4%;
 }
@@ -119,9 +124,9 @@
 .newsIcon {
   width: 25%;
   height: 45%;
-  background-color: rgba(247, 119, 0, 0.9);
+  background-color: #e6e6e6;
   border-radius: 20px;
-  color: #fff;
+  color: #00263f;
   position: absolute;
   right: 0;
 }
@@ -148,12 +153,12 @@
   width: 90%;
   height: 1px;
   margin: 0.8% 0 0.8% 0;
-  background-color: #000;
+  background-color: #c0c0c0;
 }
 /* ================================= */
 /* subHeading */
 /* ================================= */
-.subHeading {
+.subHeadContena {
   width: 100%;
   position: relative;
   display: flex;
@@ -161,18 +166,19 @@
   margin-bottom: 2%;
 }
 
-.subHeadingText {
-  width: 30%;
+.subHeadSection {
+  width: 50%;
   height: 60%;
   word-wrap: break-word;
-  font-size: 1.3vw;
+  font-size: 1vw;
+  padding-left: 10%;
 }
 /* ================================= */
 /* subImages */
 /* ================================= */
 .subImagesContena {
   padding: 2% 0 2% 0;
-  background-color: #000;
+  background-color: #00263f;
 }
 
 .subImages {
@@ -379,7 +385,7 @@
 
 .explainPickup {
   word-wrap: break-word;
-  font-size: 1.2vw;
+  font-size: 0.8vw;
 }
 
 /* ================================= */
@@ -387,7 +393,7 @@
 /* ================================= */
 .accessContena {
   width: 100%;
-  background-color: yellow;
+  background-color: #ffff00;
   padding: 2% 0 4% 0;
   display: flex;
   justify-content: center;
