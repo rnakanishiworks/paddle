@@ -158,20 +158,25 @@ p {
 /* ================================= */
 /* subHeading */
 /* ================================= */
-.subHeadContena {
+.chachCopyContena {
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
-.subHeadSection {
-  width: 50%;
+.chachCopy {
+  /* padding-left: 7%; */
   height: 60%;
   word-wrap: break-word;
   font-size: 1vw;
-  padding-left: 10%;
+  color: #555555;
+  text-align: center;
+}
+
+.eLabel {
+  font-size: 2.5vw;
 }
 /* ================================= */
 /* subImages */
@@ -354,13 +359,13 @@ p {
 /* PickUp */
 /* ================================= */
 .pickUpContena {
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .pickupTitle {
   display: flex;
   justify-content: center;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 .pickupTitlePng {
@@ -393,7 +398,7 @@ p {
 /* ================================= */
 .accessContena {
   width: 100%;
-  background-color: #ffff00;
+  background-color: #e6e6e6;
   padding: 2% 0 4% 0;
   display: flex;
   justify-content: center;
@@ -402,14 +407,14 @@ p {
   position: relative;
 }
 
-.accessBackImage {
+/* .accessBackImage {
   width: 100%;
   object-fit: cover;
   position: absolute;
   z-index: 1;
   opacity: 0.3;
   top: 0;
-}
+} */
 
 .accessTitle {
   display: flex;
@@ -435,6 +440,15 @@ p {
   width: 50%;
   height: 100%;
   background-color: #fff;
+  display: flex;
+}
+.accessText {
+  width: 50%;
+  height: 100%;
+}
+.gmap {
+  width: 50%;
+  height: 100%;
 }
 
 .accessLinkButtonArea {
