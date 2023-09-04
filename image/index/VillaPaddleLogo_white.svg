@@ -8,7 +8,7 @@
    version="1.1"
    id="svg64437"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="VillaPaddleLogo.svg"
+   sodipodi:docname="VillaPaddleLogo_white.svg"
    inkscape:export-filename="PaddleLogo002.png"
    inkscape:export-xdpi="400"
    inkscape:export-ydpi="400"
@@ -27,10 +27,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1459047"
-     inkscape:cx="256.56584"
-     inkscape:cy="25.743851"
-     inkscape:current-layer="layer2"
+     inkscape:zoom="1.5561405"
+     inkscape:cx="111.17248"
+     inkscape:cy="151.33595"
+     inkscape:current-layer="g9571"
      showborder="false"
      inkscape:showpageshadow="false"
      inkscape:deskcolor="#d1d1d1" />
@@ -24152,7 +24152,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Paddle_Logo正規化">
+     inkscape:label="Paddle_Logo正規化"
+     sodipodi:insensitive="true">
     <g
        id="g9571">
       <g
@@ -24165,7 +24166,7 @@
            inkscape:label="hiend" />
         <path
            d="m 13.381315,16.20013 c 0,8.32167 -2.233789,15.06784 -4.9893345,15.06784 -2.7559,0 -4.989689,-6.74617 -4.989689,-15.06784 0,-8.3216685 2.233789,-15.0678385 4.989689,-15.0678385 2.7555455,0 4.9893345,6.74617 4.9893345,15.0678385 z"
-           style="fill:url(#radialGradient5574);fill-opacity:1;stroke:#7b7979;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="display:none;fill:url(#radialGradient5574);fill-opacity:1;stroke:#7b7979;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="path4086-0-3"
            inkscape:label="gradation" />
         <g
@@ -24543,13 +24544,13 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.4583px;line-height:1.25;font-family:'SantElia Script';-inkscape-font-specification:'SantElia Script, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.4583px;line-height:1.25;font-family:'SantElia Script';-inkscape-font-specification:'SantElia Script, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="13.010201"
          y="25.665598"
          id="text5371"><tspan
            sodipodi:role="line"
            id="tspan5369"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.8125px;font-family:'SantElia Script';-inkscape-font-specification:'SantElia Script, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-opacity:1;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.8125px;font-family:'SantElia Script';-inkscape-font-specification:'SantElia Script, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
            x="13.010201"
            y="25.665598">VillaPaddle</tspan></text>
     </g>
